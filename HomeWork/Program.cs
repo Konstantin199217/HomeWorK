@@ -58,10 +58,20 @@ void Zadanie3()
         return;
     }
 }
+void Zadanie4()//Еще одно решение 3 задания
+{
+    Console.Write("Введите число от 1 до 7  ");
+    int numbers = int.Parse(Console.ReadLine());
+    if (numbers > 5)
+    {
+        Console.WriteLine("Да");
+    }
+    else
+    {
+        Console.WriteLine("Нет");
+    }
+}
 Zadanie1();
 Zadanie2();
 Zadanie3();
-
-
-
-
+Zadanie4();
