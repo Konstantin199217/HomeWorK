@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿void Zadanie1()
+{
+    Console.Write("Введите трехзначное чило  ");
+    int numbers = int.Parse(Console.ReadLine());
+    numbers = numbers / 10 % 10;
+    Console.WriteLine(numbers);
+}
+
+
+
+
+
+
